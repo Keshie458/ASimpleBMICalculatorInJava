@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 final EditText heightText = (EditText)
                         findViewById(R.id.height_input);
+                
                 String heightStr = heightText.getText().toString();
                 double height = Double.parseDouble(heightStr);
 
